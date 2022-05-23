@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="Pizza Ordering App" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <title>PizzaGo | Order Pizza Online</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-firestore.js"></script>
+
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyDzgDR-8ZP0ACEAyHKeGyuzqVp4bgLWtJs",
+        authDomain: "pizza-react-6a611.firebaseapp.com",
+        projectId: "pizza-react-6a611",
+        storageBucket: "pizza-react-6a611.appspot.com",
+        messagingSenderId: "1031621642438",
+        appId: "1:1031621642438:web:b0468b8382554d4e706fc7",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>
